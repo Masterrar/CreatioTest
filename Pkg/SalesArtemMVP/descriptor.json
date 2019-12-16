@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "3cb1775a-3b98-46c3-b3f5-8a6156fe893d",
+    "PackageVersion": "7.13.0",
+    "Name": "SalesArtemMVP",
+    "ModifiedOnUtc": "\/Date(1576504367000)\/",
+    "Maintainer": "Customer",
+    "Description": "AraJan",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}

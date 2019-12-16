@@ -1,0 +1,42 @@
+﻿namespace Terrasoft.Configuration.ML
+{
+
+	#region Class: MLConsts
+
+	/// <summary>
+	/// Constants for machine learning logic.
+	/// </summary>
+	public static class MLConsts
+	{
+		/// <summary>
+		/// The classification problem type (MLProblemType).
+		/// </summary>
+		public const string ClassificationProblemType = "878EBE11-B0F3-43AE-88A5-E28C4F1DC4E3";
+		/// <summary>
+		/// The scoring problem type (MLProblemType).
+		/// </summary>
+		public const string ScoringProblemType = "183C45B3-F5FE-4EFD-B993-2106E5E6DFD5";
+		/// <summary>
+		/// Regression problem type (MLProblemType).
+		/// </summary>
+		public const string RegressionProblemType = "3170A242-49E3-4FD9-99ED-0D6317BDDA0A";
+		/// <summary>
+		/// The maintenance window start method (MaintenanceWindow).
+		/// </summary>
+		public const string MaintenanceWindowStartMethod = "2C8DDF9A-C19C-42CB-B143-E988AB1AC0B5";
+
+		/// <summary>
+		/// The license operation code for predictive services.
+		/// </summary>
+		public const string LicOperationCode = "PredictiveService.Use";
+
+		/// <summary>
+		/// Key for cached client script made by <see cref="MLConfigurationScriptBuilder"/>.
+		/// </summary>
+		public const string PredictableEntitiesScriptKey = "MLPredictableEntities";
+	}
+
+	#endregion
+
+}
+

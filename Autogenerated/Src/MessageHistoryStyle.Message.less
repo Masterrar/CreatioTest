@@ -1,0 +1,279 @@
+﻿#MessageHistory .schema-wrap.one-el {
+	min-width: 0;
+}
+
+.message-history {
+	margin-top: 30px;
+	.message-history-items {
+		width: 100%;
+	}
+}
+.historyMessageWrap {
+	margin: 0 0 10px 0;
+	.createdByImage {
+		width: 32px;
+		height: 32px;
+		float: right;
+		margin-right: 0;
+		cursor: pointer;
+		img {
+			width: 32px;
+			height: 32px;
+			border-radius: 16px;
+		}
+	}
+	.messageContent {
+		margin: 0px 54px 0 85px;
+		padding: 11px 14px 14px;
+		position: relative;
+		.messageHeader {
+			display: flex;
+			flex-wrap: nowrap;
+			width: 100%;
+			* {
+				font-size: 13px;
+				width: auto;
+				margin-right: 5px;
+			}
+			.createdByLinkWrap {
+				float: left;
+				margin-right: 30px;
+				width: auto;
+			}
+			.creationInfoLabel {
+				color: #999;
+				width: auto;
+				text-align: right;
+				float: right;
+			}
+		}
+		.messageBody .messageText {
+			color: #000;
+			font-size: 14px;
+		}
+	}
+	.messageContent.speech-bubble::after {
+		top: 16px;
+		right: -16px;
+		bottom: auto;
+		left: auto;
+		border-width: 0 0 16px 16px;
+		border-style: solid;
+		content: "";
+		position: absolute;
+		display: block;
+		width: 0;
+	}
+}
+
+.messageBody .multiline-label-wrap iframe {
+  margin-left: 0px;
+}
+
+@lineHeight: 18px;
+@rightSpace: 110px;
+
+.multiline-label-wrap.message_files {
+	line-height: @lineHeight;
+	margin-top: 15px;
+	position: relative;
+	
+	.multiline-label {
+		margin-right: @rightSpace;
+	}
+	.label-content-container {
+		max-height: @lineHeight;
+	}
+	.label-content-container:after {
+		height: @lineHeight;
+	}
+	.read-more {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		min-width: @rightSpace;
+		img {
+			float: left;
+		}
+	}
+}
+
+@historyV2LeftIndent: 34px;
+
+.historyV2-container-wrap {
+
+	.icon16 {
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		margin-right: 8px;
+	}
+
+	.icon16-label {
+		font-size: 13px;
+		position: absolute;
+		vertical-align: baseline;
+		color: #999;
+		text-decoration: none;
+		&:hover {
+			color: #4e7bd8;
+			text-decoration: underline;
+		}
+	}
+
+	.historyV2-group-caption-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-bottom: 6px;
+		margin-top: 17px;
+		border-bottom: #e6e6e6 solid 1px;
+	}
+
+	.historyV2-group-caption-container .historyV2GroupCaption {
+		width: auto;
+		font-size: 16px;
+		color: #eb933d;
+	}
+	
+	.historyV2-message-header-container {
+		display: flex;
+		> * {
+			vertical-align: top;
+			margin-top: 14px;
+			a, label {
+				margin-right: 4px;
+				font-size: 14px;
+			}
+		}
+		.inline-container {
+			display: inline-block;
+		}
+		.emailRecepients-container {
+			max-width: 500px;
+			display: inline-flex;
+		}
+		.emailRecepient {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.header-text {
+			margin-right: 2px;
+		}
+		.header-text :last-child {
+			margin-right: 0;
+		}
+
+		.email-actions-container
+		{
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 20px;
+			margin-top: 0;
+			> span {
+				padding-right: 0;
+				padding-left: 10px;
+			}
+		}
+
+		.email-action-button {
+			width: 24px;
+			height: 24px;
+		}
+
+		.message-header-center-container {
+			white-space: nowrap;
+			overflow: hidden;
+			margin-top: 13px;
+		}
+	}
+
+	.messages-split-line {
+		border-bottom: #e6e6e6 solid 1px;
+		width: calc(~"100%" - @historyV2LeftIndent);
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+	.created-by-image {
+		display: inline-block;
+		margin: 0px;
+		img {
+			width: 28px;
+			height: 28px;
+			margin-top: 9px;
+			margin-right: 14px;
+			border-radius: 14px;
+		}
+	}
+
+	.createdByLink {
+		vertical-align: top;
+		margin-top: 14px;
+		display: inline;
+	}
+
+	.channelIcon {
+		display: inline-block;
+		margin-right: @historyV2LeftIndent - 20px;
+		vertical-align: top;
+		margin-top: 14px;
+		width: 20px;
+		height: 20px;
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	.messageContent {
+		margin-left: @historyV2LeftIndent;
+		padding-top: 10px;
+		word-wrap: break-word;
+	}
+
+	.headerText-container-wrap {
+		vertical-align: top;
+		margin-top: 14px;
+		display: inline-block;
+	}
+
+	.message-header-right-container {
+		display: flex;
+		white-space: nowrap;
+		margin-left: auto;
+		margin-top: 6px;
+	}
+
+	.float-clear-container {
+		clear: both
+	}
+
+	.creationInfoLabel {
+		display: inline-block;
+		margin-top: 6px;
+		color: #999999;
+	}
+
+	.historyV2-message-footer-container {
+		padding-bottom: 16px;
+		.show-more-comments-container {
+			margin-top: 10px;
+		}
+        .history-files-count-container {
+          display: inline-block;
+          padding-top: 10px;
+          margin-left: 34px;
+			.history-files-count-label {
+				cursor: pointer;
+			}
+        }
+	}
+}
+
+.inline-message-history-files {
+	max-height: none;
+	margin-top: 15px;
+	position: relative;
+}

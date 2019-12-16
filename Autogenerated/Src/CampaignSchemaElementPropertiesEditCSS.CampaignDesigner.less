@@ -1,0 +1,231 @@
+﻿.schema-designer {
+    .properties-ct {
+        .schema-wrap.one-el .properties-container {
+            .t-checkbox-control {
+                margin-top: 8px;
+                &.no-wrap {
+                    margin-top: 0;
+                }
+            }
+
+            .t-combobox-edit.no-label {
+                padding-top: 10px;
+            }
+        }
+
+        .label-small {
+            margin: 16px 9px 0 0;
+            font-size: 13px;
+        }
+
+        .label-control {
+            color: #444444;
+            margin: 16px 0 0 32px;
+        }
+
+        .grid-layout-spacer {
+            height: 0;
+        }
+
+        .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules 
+                .filteredit-group-rules-list .filteredit-rule .filteredit-rule-left {
+            margin-left: 32px;
+            font-size: 13px;
+            color: #999999;
+        }
+
+        .t-btn-wrapper {
+            &.t-information-btn.t-checkbox-information-button {
+                margin-top: 11px;
+                margin-bottom: 0;
+            }
+        }
+
+        .t-btn-toolbar-wrapper {
+            margin-top: 20px;
+        }
+    }
+
+    .properties-ct [data-item-marker*='AddCampaignParticipantPage'] {
+	    .t-title-label-proc {
+		    color: rgba(74, 214, 147, 1);
+	    }
+    }
+
+    .properties-ct [data-item-marker*='CampaignStartSignalPage'] {
+	    .t-title-label-proc {
+		    color: rgba(74, 214, 147, 1);
+	    }
+    }
+
+    .properties-ct [data-item-marker*='ExitFromCampaignPage'] {
+	    .t-title-label-proc {
+		    color: rgba(236, 117, 123, 1);
+        }
+        .t-folder-information-btn {
+            margin-top: 20px;
+        }
+    }
+
+    .properties-ct [data-item-marker*='MarketingEmailPage'] {
+	    .t-title-label-proc {
+		    color: rgba(148, 148 ,235, 1);
+	    }
+    }
+
+    .properties-ct [data-item-marker*='CampaignLandingPage'] {
+        .t-title-label-proc {
+            color: rgba(242, 201, 51, 1);
+        }
+    }
+
+    .properties-ct [data-item-marker*='CampaignEventPage'] {
+        .t-title-label-proc {
+            color: rgba(242, 201, 51, 1);
+        }
+    }
+
+    .properties-ct [data-item-marker*='CampaignAddObjectPage'],
+    .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] {
+        .t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+        .parameter-item-container {
+            padding-top: 20px;
+
+            .multiline-label {
+                font-size: 13px;
+            }
+
+            .macros-input-container,
+            .parameter-input-container {
+                padding-top: 4px;
+                margin-right: 28px;
+
+                .parameter-label-wrap,
+                .parameter-control-wrap {
+                    margin-top: 25px;
+                }
+                .parameter-label-wrap label {
+                    padding-bottom: 2px;
+                }
+            }
+            .parameter-tools-container {
+                width: 26px;
+                float: right;
+
+                .value-menu-btn {
+                    padding: 3px 3px;
+                    margin-bottom: 2px;
+                    min-height: 24px;
+
+                    .t-btn-menu {
+                        display: none;
+                    }
+                }
+                .value-remove-btn {
+                    padding: 3px 3px;
+                    margin-bottom: 2px;
+                    min-height: 24px;
+                    visibility: hidden;
+                }
+            }
+        } 
+        .parameter-item-container:hover .parameter-tools-container .value-remove-btn {
+            visibility: visible;
+        }
+        .add-entity-column-button {
+            padding: 0;
+            margin-top: 20px;
+        }
+        .parameter-label-wrap {
+            display: inline-block;
+        }
+        .parameter-control-wrap {
+            display: inline-block;
+            margin-right: 14px;
+            overflow: hidden;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .time-edit.datetime-timecontrol {
+            width: 94px;
+        }
+    }
+
+    .properties-ct [data-item-marker*='CampaignSequenceFlowPropertiesPage'] {
+        .t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+    }
+
+    .properties-ct [data-item-marker*='CampaignConditionalSequenceFlowPropertiesPage'] {
+        .t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+        #ExtendedFiltersContainer {
+            margin-top: 16px;
+        }
+    }
+
+    .properties-ct [data-item-marker*='EmailConditionalTransitionPropertiesPage'] {
+        .t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+        #ExtendedFiltersContainer {
+            margin-top: 16px;
+        }
+    }
+
+    .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] {
+        .t-label.t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+        #ExtendedFiltersContainer {
+            margin-top: 16px;
+        }
+        .responses-list {
+            margin-top: 10px;
+
+            .t-label {
+                font-size: 14px;
+                color: #444444;
+                padding-top: 0px;
+            }
+        }
+        .responses-grid-row {
+            padding: 5px 0 6px 0;
+        }
+        .response-label-wrap {
+            display: inline-block;
+        }
+        .response-control-wrap {
+            display: inline-block;
+            margin-right: 16px;
+            overflow: hidden;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+    }
+
+    .properties-ct [data-item-marker*='LandingConditionalTransitionPropertiesPage'] {
+        .t-label.t-title-label-proc {
+            color: rgba(131, 157, 195, 1);
+        }
+        #ExtendedFiltersContainer {
+            margin-top: 16px;
+        }
+        .responses-list {
+            margin-top: 10px;
+        
+            .t-label {
+                font-size: 14px;
+                color: #444444;
+                padding-top: 0px;
+            }
+        }
+    }
+}

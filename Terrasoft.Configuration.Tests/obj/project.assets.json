@@ -1,0 +1,77 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Terrasoft.Configuration/0.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Terrasoft.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Terrasoft.Configuration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Terrasoft.Configuration/0.0.0": {
+      "type": "project",
+      "path": "../Terrasoft.Configuration.Dev.csproj",
+      "msbuildProject": "../Terrasoft.Configuration.Dev.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Terrasoft.Configuration >= 0.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\a.rogov\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Creatio_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Terrasoft.Configuration.Tests\\Terrasoft.Configuration.Tests.csproj",
+      "projectName": "Terrasoft.Configuration.Tests",
+      "projectPath": "C:\\Creatio_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Terrasoft.Configuration.Tests\\Terrasoft.Configuration.Tests.csproj",
+      "packagesPath": "C:\\Users\\a.rogov\\.nuget\\packages\\",
+      "outputPath": "C:\\Creatio_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Terrasoft.Configuration.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\a.rogov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Creatio_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Terrasoft.Configuration.Dev.csproj": {
+              "projectPath": "C:\\Creatio_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Terrasoft.Configuration.Dev.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
